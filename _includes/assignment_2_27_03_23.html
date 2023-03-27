@@ -11,9 +11,7 @@
     <div class="container">
       <img class="img" src="https://siviaggia.it/wp-content/uploads/sites/2/2020/05/sanfrancisco.jpg?w=687&h=386&quality=90&strip=all&crop=1" alt="Snow" style="width:100%; height: 700px;">
       <div class="centered">
-        <h3> Analyzing Larceny and Theft Incidents in Crimes in San Francisco city </h3>
-        <h2> n this article, we have discussed the San Francisco crime data and how it can be accessed and used by researchers, journalists, and policymakers to better understand crime trends and patterns in the city. 
-            As part of our analysis, we plotted three graphs that highlight important information about the dataset.</h2>
+        <h3> Analyzing Larceny and Theft Incidents in Crimes in San Francisco city</h3>
       </div>
     </div>
     
@@ -24,14 +22,31 @@
        <div class="containerr">
         <time class="date" datetime="2023-03-27">March 27, 2023</time>
        </div>   
-      <p class="paragraph1">
-        We decided to conduct a detailed analysis of Larceny and Theft incidents, as they are the most common crimes, accounting for 22.5% of all reported crimes. 
-        Additionally, the most frequent resolution for these crimes is through arrests. To analyze these incidents, we filtered out the ones with a resolution of "NONE" and focused on those with descriptions such as 'ARREST, BOOKED' or 'ARREST, CITED'. 
-        We also created a breakdown by PdDistrict to determine which districts are performing better in addressing these crimes..<br><br>
-        Upon analyzing the data, we noticed that the proportions of Larceny and Theft incidents have remained relatively stable over time. 
-        This leads us to believe that the police department's efforts to address these crimes have not significantly impacted the overall incidence of these crimes. <br><br>
-    
-       </p>
+      <p class="paragraph1">In this article, we present findings about the San Francisco Police Department data, focusing on Larceny and Theft incidents which account for 22.5% of all reported crimes.
+         To analyze these crimes in more detail, we created three plots.<br>
+
+        Firstly, we created a stacked bar chart to analyze the crimes with a resolution of "ARREST" broken down by PdDistrict.
+         This allows us to examine the distribution of arrest rates across different neighborhoods in San Francisco.
+         <br><br>
+
+
+        Secondly, we created an interactive map plot of the crimes reported between May 2017 to May 2018. 
+        This plot enables us to visualize the spatial distribution of the crimes and identify any patterns or hotspots.
+        <br><br>
+
+        Finally, we created a Bokeh plot to visualize the temporal patterns of the crimes.
+        This plot enables us to see how the number of incidents varies over time, and whether there are any seasonal or periodic trends.
+
+         <br><br>
+
+        The three plots are shown below, providing valuable insights into the patterns and trends of Larceny and Theft incidents in San Francisco,
+        which can inform efforts to prevent and respond to these crimes more effectively.
+
+        <br><br>
+
+
+         </p>
+        </td>
        
       </tr>
     </table>
@@ -39,14 +54,18 @@
       <tr>
         <td>
         <p class="paragraph2"> 
-            In conclusion, by utilizing the map, and analyzing the concentration of crime in different police districts,
-        
-            we have obtained valuable insights that can help identify patterns and trends in the data. This can aid in making recommendations
-             to improve public safety in San Francisco and enable the Police to gain a better understanding of crime trends in the city. <br><br>
+           While Larceny and Theft incidents are the most common crimes reported in San Francisco,
+           arrests are the most frequent resolution for these crimes. To analyze these incidents, 
+           we filtered out the ones with a resolution of "NONE" and focused on those with descriptions such as "ARREST, BOOKED" or "ARREST, CITED".
+           We also created a breakdown by PdDistrict to determine which districts have higher or lower arrest rates, 
+           which can help us identify the effectiveness of law enforcement in addressing these crimes in different districts.
+          <br><br>
           
-
-             <br><br>
-         </p>
+          Upon analyzing the data, we noticed that the proportions of Larceny and Theft incidents have remained relatively stable over time.
+          This leads us to believe that the police department's efforts to address these crimes have not significantly impacted the overall incidence of these crimes.
+          <br><br>
+          
+           </p>
         </td>
       </tr>
     </table>
@@ -61,38 +80,117 @@
       </tr>
     </table>
 
+    <table cellspacing="10">
+      <tr>
+        <td>
+        <p class="paragraph2"> 
+         
+          Our analysis of the map plot and the concentration of crime in different police districts has provided valuable insights into the patterns and trends in the San Francisco crime data.
+           These insights can help identify areas where public safety can be improved and enable the police to gain a better understanding of crime trends in the city.
 
- 
+          <br> <br> 
+         
+           One notable finding from our analysis is that the majority of crimes are located in the northeast part of the city.
+           This information could be used to focus law enforcement efforts in this area and reduce crime rates.
+
+          <br> <br> 
+
+          Furthermore, we could perform additional analyses, such as cluster analysis and network analysis, to further our understanding of the crime patterns and relationships in the city. 
+          These techniques could reveal hidden structures and connections in the data, providing more insights for improving public safety in San Francisco
+          
+          <br> <br> 
+
+        </p>
+        </td>
 
 
+        <td>
+          <iframe src="{{ site.baseurl }}/assets/assignment_2_final.html" height="800px" width="1200px"></iframe>
+        </td>
+
+      </tr>
+    </table>
+
+  
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <table cellspacing="10">
+      <tr>
+        <td>
+        <h3 class="text_intro">Map of crime locations</h3>
+        <p class="paragraph2"> 
+          The dataset used for this analysis is the San Francisco Crime Data from May 2017 to May 2018.
+          The goal of this data story is to analyze the patterns of larceny and theft incidents in the city and identify any trends or changes over time.<br> 
+           
+           <br> <br> 
+
+          The first visualization is a time-series bar chart showing the monthly counts of larceny and theft incidents. The chart reveals a clear pattern of seasonality,
+          with higher counts during the summer months and lower counts during the winter months. The highest counts of incidents occurred in August and September,
+          while the lowest counts occurred in December and January. Overall, the chart shows that larceny and theft incidents were more common during the warmer months of the year.
+             <br> <br> 
+        </p>
+        <br><br> 
+        </p>
+        </td>
+
+
+
+
+
+        <td>
+          <iframe src="{{ site.baseurl }}/assets/assignment_2_final.html" height="800px" width="1200px"></iframe>
+        </td>
+      </tr>
+    </table>
 
     <table cellspacing="10">
       <tr>
         <td>
         
         <p class="paragraph2"> 
-            <h3> interactive visualization in Bokeh</h3>
-
-          <br>  The dataset used for this analysis is the San Francisco Crime Data from May 2017 to May 2018.
-           The goal of this data story is to analyze the patterns of larceny and theft incidents in the city and identify any trends or changes over time.<br> 
-           
-           The first visualization is a time-series bar chart showing the monthly counts of larceny and theft incidents. The chart reveals a clear pattern of seasonality,
-            with higher counts during the summer months and lower counts during the winter months. The highest counts of incidents occurred in August and September,
-             while the lowest counts occurred in December and January. Overall, the chart shows that larceny and theft incidents were more common during the warmer months of the year.
+          <strong>Based on the map and analysis:</strong><br> 
+          Based on the choropleth map, the police district with the highest rate of DRUNKENNESS on Sundays appears 
+          to be the Tenderloin district, which is represented by the color purple on the map. The districts with the next highest
+           rates are the Mission and the Southern districts, which are represented by shades of blue. The remaining districts 
+           have lower rates of DRUNKENNESS on Sundays, as shown by the lighter shades of green and yellow.<br> <br> 
+          It is important to note that the data used to create the map is based on a randomly generated dataset, and may not accurately reflect actual crime rates in San Francisco. Additionally, the map only displays data for one specific day of the week (Sunday), and does not provide information on how crime rates may vary by time of day or other factors. Therefore, any analysis of DRUNKENNESS on Sundays based on this map should be taken with caution and not be considered definitive.
+          This analysis could be used to inform policing strategies, as well as efforts to address underlying social and economic issues that contribute to crime. For example, increased police presence in high-crime areas could help deter criminal activity, while initiatives aimed at reducing poverty and homelessness could also have a positive impact on crime rates.
         </p>
         </td>
       </tr>
     </table>
 
 
-</td>
-<td>
-  <img class="imgg" src="https://gisgeography.com/wp-content/uploads/2020/06/San-Francisco-Road-Map-1265x1265.jpg" style="width:100%; height: 700px;">
-</td> 
+   
+
+    <table cellspacing="10">
+      <tr>
+        <td>
+        
+        <p class="paragraph2"> 
+          In conclusion, by utilizing the map, and analyzing the concentration of crime in different police districts,
+          <br><br>
+          we have obtained valuable insights that can help identify patterns and trends in the data. This can aid in making recommendations
+          to improve public safety in San Francisco and enable the Police to gain a better understanding of crime trends in the city. <br><br>
+        
+        </p>
+        </td>
+      </tr>
+    </table>
 
 
+    <td>
+      <img class="imgg" src="https://gisgeography.com/wp-content/uploads/2020/06/San-Francisco-Road-Map-1265x1265.jpg" style="width:1200px; height: 500px;">
+    </td> 
+
+    <br><br>
+    
     <footer>
       <p>&copy; 2023 Crimes in San Francisco</p>
     </footer>
 </body>
 </html>
+

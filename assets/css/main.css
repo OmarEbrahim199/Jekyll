@@ -1,11 +1,11 @@
 body{
-    background-color: #f2f2f2; /* set the background color to a light gray /
-    border: 10px solid #ccc; / add a border with a medium gray color /
-    padding: 30px; / add padding of 20 pixels to the top, right, bottom, and left /
-    box-sizing: border-box; / include the border and padding in the width and height of the element /
+    background-color: #f2f2f2; 
+    border: 10px solid #ccc;
+    padding: 30px; 
+    box-sizing: border-box; 
   }
 
-/ Container holding the image and the text /
+
 .container {
     position: relative;
     text-align: center;
@@ -15,14 +15,14 @@ body{
 
 .date{
     color: rgb(0, 0, 0);
-    display: block; / set the display property to block to make the element take up the full width of its container /
-    margin-left: 0; / set the left margin to 0 to align the element to the left /
+    display: block;
+    margin-left: 0; 
 }
 .containerr {
     text-align: left;
 }
 
-  / Centered text */
+  
   .centered {
     position: absolute;
     top:80%;
